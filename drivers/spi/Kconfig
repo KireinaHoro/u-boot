@@ -363,7 +363,7 @@ config ZYNQ_QSPI
 
 config ZYNQMP_GQSPI
 	bool "Configure ZynqMP Generic QSPI"
-	depends on ARCH_ZYNQMP || ARCH_VERSAL
+	depends on ARCH_ZYNQMP || ARCH_VERSAL || RISCV
 	help
 	  This option is used to enable ZynqMP QSPI controller driver which
 	  is used to communicate with qspi flash devices.
